@@ -1,0 +1,186 @@
+*{ margin:0;padding:0;}
+.nav{
+    height:50px;
+    width:62%;
+    margin:0 auto 0 auto;
+    background-image: url("../images/Logo.png");
+    background-repeat: no-repeat;
+    font-size: 1.2em;
+    font-family: "Adobe 黑体 Std R";
+}
+.center ul{
+    list-style: none;
+    float:left;
+    height: 50px;
+    width:50%;
+    margin-left: 27%;
+}
+.center li{
+    float:left;
+    margin:0 30px;
+}
+.right{
+    list-style: none;
+    height:50px;
+    width:20%;
+    float:right;
+}
+.right li{
+    float:right;
+    margin:0 0 0 20px;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    color:#427394;
+}
+.active{
+    color:#427394;
+    border-bottom: solid;
+    border-color: #427394;
+}
+
+.container{
+    width:100%;
+    height:600px;
+    background-color: #DCDCDC;
+}
+.content{
+    width:62%;
+    height:600px;
+    margin:0 auto;
+}
+.leftPage{
+    width:22%;
+    height:400px;
+    background-color: white;
+    margin-right: 1%;
+    margin-top: 10px;
+    float:left;
+}
+.leftPage img{
+    display: block;
+    margin: 0 auto;
+    padding:14px 0;
+}
+.leftPage p a{
+    color:#427394;
+    text-decoration:none;
+}
+.leftPage ul{
+    width:100%;
+    height: 60px;
+    list-style: none;
+    text-align: center;
+    margin:10px 0 0;
+    padding:0;
+}
+.leftPage ul li a{
+    display: block;
+}
+.leftPage ul li a:hover:not(.active){
+    color:white;
+    background-color: rgb(0,71,117);
+}
+.leftPage ul li a.activeLeft{
+    color:white;
+    background-color: rgb(0,71,117);
+}
+.rightPage{
+    width:77%;
+    height:580px;
+    float:right;
+    margin-top: 10px;
+}
+.rightTop{
+    width:100%;
+    height:47px;
+    background-color: white;
+    margin:0;
+}
+.rightTop ul{
+    list-style: none;
+    float:left;
+    width:60%;
+    height:100%;
+    margin-left:20%;
+}
+.rightTop ul li{
+    float:left;
+    margin:0 17%;
+    padding: 3px 0;
+}
+.rightTop ul li a.activeTop{
+    color:#427394;
+}
+.rightContent{
+    width:100%;
+    height:500px;
+    background-color: white;
+    margin-top: 13px;
+    padding-top: 6px;
+}
+.bookRecord{
+    width:100%;
+    height:146px;
+    margin-top:10px;
+    background-color: rgb(240,255,240);
+    padding:2px 0;
+}
+.bookRecord img{
+    width:30%;
+    height:85%;
+    display: block;
+    margin:10px 0 10px 5px;
+    vertical-align: center;
+}
+.name{
+    width:20%;
+    height:15%;
+    float:left;
+    position: relative;
+    top:-120px;
+    left:230px;
+}
+.time{
+    width:30%;
+    height:15%;
+    float:left;
+    position: relative;
+    top:-80px;
+    left:103px;
+}
+.date{
+    width:30%;
+    height:15%;
+    float:left;
+    position: relative;
+    top:-38px;
+    right:90px;
+}
+.money{
+    width:15%;
+    height:15%;
+    float:left;
+    position: relative;
+    top:-38px;
+}
+.pageEnd{
+    width:100%;
+    height:100px;
+    float:left;
+    background-color: #88919a;
+}
+.footer{
+    height:100px;
+    width:62%;
+    margin:0 auto;
+}
+.footer p{
+    color:white;
+}

@@ -1,0 +1,78 @@
+*{ margin:0;padding:0;}
+.nav{
+    height:50px;
+    width:62%;
+    margin:0 auto 0 auto;
+    background-image: url("../images/Logo.png");
+    background-repeat: no-repeat;
+    font-size: 1.2em;
+    font-family: "Adobe 黑体 Std R";
+}
+.center ul{
+    list-style: none;
+    float:left;
+    height: 50px;
+    width:50%;
+    margin-left: 27%;
+}
+.center li{
+    float:left;
+    margin:0 30px;
+}
+.right{
+    list-style: none;
+    height:50px;
+    width:20%;
+    float:right;
+}
+.right li{
+    float:right;
+    margin:0 0 0 20px;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    color:#427394;
+}
+.active{
+    color:#427394;
+    border-bottom: solid;
+    border-color: #427394;
+}
+.picture{
+    width:100%;
+    margin:0 auto;
+}
+.container{
+    width:62%;
+    margin:0 auto;
+}
+.container h2{
+    display: block;
+    border-bottom:solid;
+    border-color: rgb(0,71,117);
+    margin-bottom: 20px;
+}
+.container p{
+    display: block;
+    margin:10px 0;
+    font-size: 1.1em;
+}
+.pageEnd{
+    height:100px;
+    width:100%;
+    background-color: #88919a;
+}
+.footer{
+    height:100px;
+    width:62%;
+    margin:0 auto;
+}
+.footer p{
+    color:white;
+}
